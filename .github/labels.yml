@@ -1,0 +1,50 @@
+- color: 006b75
+  description: ""
+  name: array
+- color: 0052cc
+  description: ""
+  name: bag
+- color: d93f0b
+  description: ""
+  name: community
+- color: 55b3c1
+  description: ""
+  name: config
+- color: "000000"
+  description: ""
+  name: core
+- color: fbca04
+  description: ""
+  name: dataframe
+- color: 4f6edd
+  description: ""
+  name: delayed
+- color: bebaf4
+  description: ""
+  name: discussion
+- color: f9d0c4
+  description: ""
+  name: documentation
+- color: ffcce7
+  description: Intermittent failures on CI.
+  name: flaky test
+- color: "159818"
+  description:
+    Clearly described and easy to accomplish.  Good for beginners to the
+    project
+  name: good first issue
+- color: 5319e7
+  description: Clearly described, educational, but less trivial than "good first issue"
+  name: good second issue
+- color: e99695
+  description: ""
+  name: io
+- color: f4e49a
+  description: ""
+  name: needs info
+- color: 64db8e
+  description: ""
+  name: scheduler
+- color: D3D3D3
+  description: ""
+  name: stale
