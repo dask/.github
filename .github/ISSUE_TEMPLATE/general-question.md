@@ -5,7 +5,7 @@ labels:
   - needs-triage
 ---
 
-<!-- ⚠ If you have a question like *"How do I filter a dask.dataframe?"* then please consider asking the question on Stack Overflow using the #Dask tag.
+<!-- 🚨 If you have a question like *"How do I filter a dask.dataframe?"* then please consider asking the question on Stack Overflow using the #Dask tag https://stackoverflow.com/questions/tagged/dask. 🚨
 
 Please do not ask a question in both locations.
 
