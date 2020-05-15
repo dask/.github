@@ -13,7 +13,7 @@ jobs:
         repository:
           - dask/dask
     steps:
-      - uses: actions/checkout@1.0.0
+      - uses: actions/checkout@v2
       - uses: micnncim/action-label-syncer@v1
         env:
           GITHUB_TOKEN: ${{ secrets.ORG_GITHUB_TOKEN }}
