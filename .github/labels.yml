@@ -51,13 +51,11 @@
 # Skill level
 - name: good first issue
   color: "159818"
-  description:
-    Clearly described and easy to accomplish.  Good for beginners to the
-    project
+  description: Clearly described and easy to accomplish. Good for beginners to the project.
 
 - name: good second issue
   color: 5319e7
-  description: Clearly described, educational, but less trivial than "good first issue"
+  description: Clearly described, educational, but less trivial than "good first issue".
 
 # Status
 - name: needs info
@@ -70,4 +68,4 @@
 
 - name: needs triage
   color: 7b9ad8
-  description: "Awaiting triage by a Dask Czar."
+  description: "Awaiting triage by a Dask maintainer."
