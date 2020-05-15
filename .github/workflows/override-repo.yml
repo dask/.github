@@ -1,0 +1,12 @@
+---
+name: Test overriding the repo
+on: [pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: echo ${GITHUB_REPOSITORY}
+        env:
+          GITHUB_REPOSITORY: test/test
