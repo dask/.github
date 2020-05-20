@@ -14,9 +14,8 @@ jobs:
           - dask/dask
     steps:
       - uses: actions/checkout@v2
-      - uses: micnncim/action-label-syncer@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.ORG_GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ matrix.repository }}
+      - uses: jacobtomlinson/action-label-syncer@override-repo
         with:
           manifest: .github/labels.yml
+          repository: ${{ matrix.repository }}
+          token: ${{ secrets.ORG_GITHUB_TOKEN }}
