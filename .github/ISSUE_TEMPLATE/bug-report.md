@@ -15,3 +15,22 @@ Please be concise with code posted. See guidelines below on how to provide a goo
 
 Bug reports that follow these guidelines are easier to diagnose,and so are often handled much more quickly.
 -->
+
+**What happened**:
+
+**What you expected to happen**:
+
+**Minimal Complete Verifiable Example**:
+
+```python
+# Put your MCVE code here
+```
+
+**Anything else we need to know?**:
+
+**Environment**:
+
+- Dask version:
+- Python version:
+- Operating System:
+- Install method (conda, pip, source):
