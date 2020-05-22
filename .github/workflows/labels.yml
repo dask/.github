@@ -6,8 +6,9 @@ on:
       - master
 
 jobs:
-  build:
+  sync-labels:
     runs-on: ubuntu-latest
+    if: github.repository == 'dask/.github'
     strategy:
       matrix:
         repository:
