@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: General Question
+    url: https://stackoverflow.com/questions/tagged/dask
+    about: "If you have a question like *How do I filter a dask.dataframe?* then please ask on Stack Overflow using the #Dask tag."
