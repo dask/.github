@@ -1,71 +1,107 @@
 # Type
-- name: community
+- name: Type:Bug
   color: d93f0b
-  description: ""
+  description: "Something is broken"
 
-- name: discussion
+- name: Type:Needs Triage
   color: bebaf4
-  description: ""
+  description: "Awaiting triage"
+
+- name: Type:Needs Attention
+  color: e58b7e
+  description: "It's been a while since this was pushed on"
+
+- name: Type:Needs Info
+  color: bebaf4
+  description: "Needs information further information"
+
+- name: Type:Feature
+  color: 0052cc
+  description: "Something is missing"
+
+- name: Type:Hygiene
+  color: bebaf4
+  description: "Code quality and project level things"
+
+- name: Type:Testing/CI
+  color: f4e49a
+  description: "Unit tests and/or continuous integration"
 
 # Area
-- name: array
+- name: Area:Array
   color: 006b75
   description: ""
 
-- name: bag
+- name: Area:Bag
   color: 0052cc
   description: ""
 
-- name: config
+- name: Area:Config
   color: 55b3c1
   description: ""
 
-- name: core
+- name: Area:Core
   color: "000000"
   description: ""
 
-- name: dataframe
+- name: Area:Daraframe
   color: fbca04
   description: ""
 
-- name: delayed
+- name: Area:Delayed
   color: 4f6edd
   description: ""
 
-- name: documentation
+- name: Area:Documentation
   color: f9d0c4
   description: ""
 
-- name: io
+- name: Area:IO
   color: e99695
   description: ""
 
-- name: scheduler
+- name: Area:Scheduler
   color: 64db8e
   description: ""
 
-- name: flaky test
+- name: Area:Diagnostics/Dashboard
   color: ffcce7
-  description: Intermittent failures on CI.
+  description: ""
+
+- name: Area:ML
+  color: 77dd8d
+  description: ""
+
+- name: Area:Deployment
+  color: 6eaadd
+  description: ""
+
+- name: Area:Networking
+  color: c69f03
+  description: ""
 
 # Skill level
-- name: good first issue
+- name: Experience:Good first Dask issue
   color: "159818"
   description: Clearly described and easy to accomplish. Good for beginners to the project.
 
-- name: good second issue
+- name: Experience:Good second Dask issue
   color: 5319e7
   description: Clearly described, educational, but less trivial than "good first issue".
 
-# Status
-- name: needs info
-  color: f4e49a
+- name: Experience:Expertise required
+  color: db8c72
+  description: Needs someone familiar with this area of Dask.
+
+# Priority
+- name: Priority:Low
+  color: c8ea31
   description: ""
 
-- name: stale
-  color: D3D3D3
+- name: Priority:Medium
+  color: f9a6a2
   description: ""
 
-- name: needs triage
-  color: 7b9ad8
-  description: "Awaiting triage by a Dask maintainer."
+- name: Priority:High
+  color: d6043f
+  description: ""
