@@ -13,7 +13,11 @@
 
 - name: Type:Needs Info
   color: bebaf4
-  description: "Needs information further information"
+  description: "Needs further information"
+
+- name: Type:Discussion
+  color: bebaf4
+  description: "Discussing a topic with no specific actions yet"
 
 - name: Type:Feature
   color: 0052cc
