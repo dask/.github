@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: General Question
+  - name: General Coding Question
     url: https://stackoverflow.com/questions/tagged/dask
     about: "If you have a question like *How do I filter a dask.dataframe?* then please ask on Stack Overflow using the #Dask tag."
+  - name: High Level Question
+    url: https://github.com/dask/dask/discussions/categories/q-a
+    about: "If you have a question like *How do I use Dask to help my company achieve X?* then please ask on GitHub Discussions."
