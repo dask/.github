@@ -3,7 +3,7 @@ name: Sync labels in the declarative way
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   sync-labels:
