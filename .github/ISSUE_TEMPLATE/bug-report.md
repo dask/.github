@@ -2,8 +2,8 @@
 name: Bug Report
 about: Report a bug
 labels:
-  - type/bug
-  - needs-triage
+  - Type:Bug
+  - Type:Needs Triage
 ---
 
 <!-- Please include a self-contained copy-pastable example that generates the issue if possible.
