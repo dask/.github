@@ -6,3 +6,6 @@ contact_links:
   - name: High Level Question
     url: https://github.com/dask/dask/discussions/categories/q-a
     about: "If you have a question like *How do I use Dask to help my company achieve X?* then please ask on GitHub Discussions."
+  - name: Community discussion
+    url: https://join.slack.com/t/dask/shared_invite/zt-mfmh7quc-nIrXL6ocgiUH2haLYA914g
+    about: "If you want to meet others in the Dask community and chat about all things Dask then check out our Slack."
