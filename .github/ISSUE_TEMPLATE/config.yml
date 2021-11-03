@@ -1,11 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: General Coding Question
-    url: https://stackoverflow.com/questions/tagged/dask
-    about: "If you have a question like *How do I filter a dask.dataframe?* then please ask on Stack Overflow using the #Dask tag."
-  - name: High Level Question
-    url: https://github.com/dask/dask/discussions/categories/q-a
-    about: "If you have a question like *How do I use Dask to help my company achieve X?* then please ask on GitHub Discussions."
-  - name: Community discussion
+  - name: Usage Question or General Discussion
+    url: https://dask.discourse.group
+    about: "If you have a question like *How should I filter my dask.dataframe?* or *How do I use Dask to help my company achieve X?* then please ask on the Dask Discourse."
+  - name: Real-time chat
     url: https://join.slack.com/t/dask/shared_invite/zt-mfmh7quc-nIrXL6ocgiUH2haLYA914g
     about: "If you want to meet others in the Dask community and chat about all things Dask then check out our Slack."
