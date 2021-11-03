@@ -3,6 +3,9 @@ contact_links:
   - name: Usage Question or General Discussion
     url: https://dask.discourse.group
     about: "If you have a question like *How should I filter my dask.dataframe?* or *How do I use Dask to help my company achieve X?* then please ask on the Dask Discourse."
+  - name: General Coding Question
+    about: "If you have a question like *How should I filter my dask.dataframe?* you can also ask on Stack Overflow using the #dask tag."
+    url: https://stackoverflow.com/questions/tagged/dask
   - name: Real-time chat
     url: https://join.slack.com/t/dask/shared_invite/zt-mfmh7quc-nIrXL6ocgiUH2haLYA914g
     about: "If you want to meet others in the Dask community and chat about all things Dask then check out our Slack."
