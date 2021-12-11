@@ -34,3 +34,15 @@ Bug reports that follow these guidelines are easier to diagnose, and so are ofte
 - Python version:
 - Operating System:
 - Install method (conda, pip, source):
+
+<!-- If you are reporting an issue such as scale stability, cluster deadlock.
+Please provide a cluster dump state with this issue, by running client.dump_cluster_state()
+
+https://distributed.dask.org/en/stable/api.html?highlight=dump_cluster_state#distributed.Client.dump_cluster_state
+
+-->
+
+<details>
+<summary>Cluster Dump State:</summary>
+
+</details>
