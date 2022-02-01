@@ -3,18 +3,6 @@
   color: d93f0b
   description: "Something is broken"
 
-- name: Type:Needs Triage
-  color: bebaf4
-  description: "Awaiting triage"
-
-- name: Type:Needs Attention
-  color: e58b7e
-  description: "It's been a while since this was pushed on"
-
-- name: Type:Needs Info
-  color: bebaf4
-  description: "Needs further information"
-
 - name: Type:Discussion
   color: bebaf4
   description: "Discussing a topic with no specific actions yet"
@@ -30,6 +18,23 @@
 - name: Type:Testing/CI
   color: f4e49a
   description: "Unit tests and/or continuous integration"
+
+- name: Type:Upstream
+  color: 9D7B36
+  description: "Relating to upstream libraries"
+
+# Status
+- name: Status:Needs Triage
+  color: bebaf4
+  description: "Awaiting triage"
+
+- name: Status:Needs Attention
+  color: e58b7e
+  description: "It's been a while since this was pushed on"
+
+- name: Status:Needs Info
+  color: bebaf4
+  description: "Needs further information"
 
 # Area
 - name: Area:Array
@@ -48,7 +53,7 @@
   color: "000000"
   description: ""
 
-- name: Area:Daraframe
+- name: Area:Dataframe
   color: fbca04
   description: ""
 
