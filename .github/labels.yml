@@ -53,7 +53,7 @@
   description: ""
 
 # Skill level
-# prefixed with "needs"
+# prefixed with "good"
 - name: good first issue
   color: "159818"
   description: Clearly described and easy to accomplish. Good for beginners to the project.
