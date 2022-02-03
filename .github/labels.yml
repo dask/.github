@@ -32,7 +32,11 @@
 # prefixed with "needs"
 - name: needs attention
   color: 6d626c
-  description: "It's been a while since this was pushed on"
+  description: "It's been a while since this was pushed on. Needs attention from the owner or a maintainer."
+
+- name: needs review
+  color: 8c918c
+  description: "Needs review from a contributor."
 
 - name: needs info
   color: d0cfcc
