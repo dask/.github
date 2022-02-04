@@ -1,5 +1,5 @@
 ---
-name: Sync labels in the declarative way
+name: Sync labels in the declarative way (does not delete)
 on:
   push:
     branches:
@@ -16,8 +16,9 @@ jobs:
           - dask/distributed
     steps:
       - uses: actions/checkout@v2
-      - uses: jacobtomlinson/action-label-syncer@override-repo
+      - uses: micnncim/action-label-syncer@1.3.0
         with:
           manifest: .github/labels.yml
           repository: ${{ matrix.repository }}
           token: ${{ secrets.ORG_GITHUB_TOKEN }}
+          prune: false

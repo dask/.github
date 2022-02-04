@@ -1,111 +1,81 @@
 # Type
-- name: Type:Bug
-  color: d93f0b
+# uses less saturated colors
+- name: bug
+  color: faadaf
   description: "Something is broken"
 
-- name: Type:Needs Triage
-  color: bebaf4
-  description: "Awaiting triage"
-
-- name: Type:Needs Attention
-  color: e58b7e
-  description: "It's been a while since this was pushed on"
-
-- name: Type:Needs Info
-  color: bebaf4
-  description: "Needs further information"
-
-- name: Type:Discussion
+- name: discussion
   color: bebaf4
   description: "Discussing a topic with no specific actions yet"
 
-- name: Type:Feature
-  color: 0052cc
+- name: feature
+  color: b0f0fa
   description: "Something is missing"
 
-- name: Type:Hygiene
-  color: bebaf4
-  description: "Code quality and project level things"
+- name: documentation
+  color: f9d0c4
+  description: "Improve or add to documentation"
 
-- name: Type:Testing/CI
+- name: hygiene
+  color: b5ccfa
+  description: "Improve code quality and reduce maintenance overhead"
+
+- name: deprecation
   color: f4e49a
+  description: "Something is being removed"
+
+- name: tests
+  color: a0f9b4
   description: "Unit tests and/or continuous integration"
 
+# Status
+# prefixed with "needs"
+- name: needs attention
+  color: 6d626c
+  description: "It's been a while since this was pushed on. Needs attention from the owner or a maintainer."
+
+- name: needs review
+  color: 8c918c
+  description: "Needs review from a contributor."
+
+- name: needs info
+  color: d0cfcc
+  description: "Needs further information from the user"
+
 # Area
-- name: Area:Array
-  color: 006b75
+# more saturated colors, projects are encouraged to add many more of these
+- name: config
+  color: 1586c0
   description: ""
 
-- name: Area:Bag
-  color: 0052cc
-  description: ""
-
-- name: Area:Config
-  color: 55b3c1
-  description: ""
-
-- name: Area:Core
+- name: core
   color: "000000"
   description: ""
 
-- name: Area:Daraframe
-  color: fbca04
-  description: ""
-
-- name: Area:Delayed
-  color: 4f6edd
-  description: ""
-
-- name: Area:Documentation
-  color: f9d0c4
-  description: ""
-
-- name: Area:IO
-  color: e99695
-  description: ""
-
-- name: Area:Scheduler
-  color: 64db8e
-  description: ""
-
-- name: Area:Diagnostics/Dashboard
-  color: ffcce7
-  description: ""
-
-- name: Area:ML
-  color: 77dd8d
-  description: ""
-
-- name: Area:Deployment
-  color: 6eaadd
-  description: ""
-
-- name: Area:Networking
-  color: c69f03
+- name: io
+  color: 6f871c
   description: ""
 
 # Skill level
-- name: Experience:Good first Dask issue
+# prefixed with "good"
+- name: good first issue
   color: "159818"
   description: Clearly described and easy to accomplish. Good for beginners to the project.
 
-- name: Experience:Good second Dask issue
+- name: good second issue
   color: 5319e7
   description: Clearly described, educational, but less trivial than "good first issue".
 
-- name: Experience:Expertise required
-  color: db8c72
-  description: Needs someone familiar with this area of Dask.
-
 # Priority
-- name: Priority:Low
-  color: c8ea31
-  description: ""
+# prefixed with "p" and colors span yellow to red
+- name: p3
+  color: ffff33
+  description: "Affects a small number of users or is largely cosmetic"
 
-- name: Priority:Medium
-  color: f9a6a2
-  description: ""
+- name: p2
+  color: ffc133
+  description: "Affects more than a few users but doesn't prevent core functions"
 
-- name: Priority:High
-  color: d6043f
-  description: ""
+- name: p1
+  color: ff5233
+  description: "Affects a large population and inhibits work"
