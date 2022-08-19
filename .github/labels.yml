@@ -56,6 +56,10 @@
   color: 6f871c
   description: ""
 
+- name: packaging
+  color: 03DB41
+  description: "Related to packaging infrastructure (e.g. conda, PyPI)"
+
 # Skill level
 # prefixed with "good"
 - name: good first issue
